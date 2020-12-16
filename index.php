@@ -56,7 +56,11 @@ $footerMenu = [
     <body>
         <header class="container-fluid">
             <nav>
-                <?php  ?>
+                <?php for ($i=0; $i < count($navMenu) ; $i++) {
+                ?>
+                
+
+                <?php  } ?>
             </nav>
 
         </header>
