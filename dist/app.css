@@ -5,6 +5,22 @@ a {
   text-decoration: none;
 }
 
+footer {
+  height: 50px;
+  background-color: grey;
+}
+
+footer a {
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: black;
+}
+
 * {
   margin: 0;
   padding: 0;

@@ -1,0 +1,14 @@
+footer {
+    height: $size * 5;
+    background-color: $linkColor;
+    a {
+        font-size: $size * 1.2;
+        text-decoration: none;
+        color: $txtColor;
+        &:hover {
+            text-decoration: none;
+            color: $txtColor;
+        }
+    }
+
+}
