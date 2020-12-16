@@ -1,11 +1,16 @@
-a {
-    font-size: $size * 1.8;
-    font-weight: bold;
-    color: $linkColor;
-    padding: $size;
-    text-decoration: none;
-    &:hover {
-        text-decoration: none;
+header {
+    position: fixed;
+    top: 0;
+    background-color: #FFF;
+    a {
+        font-size: $size * 1.6;
+        font-weight: bold;
         color: $linkColor;
+        padding: $size;
+        text-decoration: none;
+        &:hover {
+            text-decoration: none;
+            color: $linkColor;
+        }
     }
 }
