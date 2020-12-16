@@ -1,9 +1,11 @@
 a {
     font-size: $size * 1.8;
+    font-weight: bold;
     color: $linkColor;
     padding: $size;
     text-decoration: none;
     &:hover {
-        
+        text-decoration: none;
+        color: $linkColor;
     }
 }

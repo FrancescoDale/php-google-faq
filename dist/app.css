@@ -1,8 +1,14 @@
 a {
   font-size: 18px;
+  font-weight: bold;
   color: grey;
   padding: 10px;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: grey;
 }
 
 footer {
