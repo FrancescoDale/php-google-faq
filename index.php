@@ -66,8 +66,14 @@ $footerMenu = [
         </header>
         <div class="container">
             <?php for ($i=0; $i < count($faq); $i++) {
+            ?>
+            <div class="box">
+                <h2></h2>
+                <h4></h4>
 
-            } ?>
+            </div>
+
+            <?php } ?>
 
         </div>
 
