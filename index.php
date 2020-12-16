@@ -67,9 +67,9 @@ $footerMenu = [
         <div class="container">
             <?php for ($i=0; $i < count($faq); $i++) {
             ?>
-            <div class="box">
-                <h2></h2>
-                <h4></h4>
+            <div class="box mt-4 mb-4">
+                <h2> <?php echo $faq[$i]["question"]; ?> </h2>
+                <h4 class="mt-2"> <?php  echo $faq[$i]["answer"]; ?> </h4>
 
             </div>
 
