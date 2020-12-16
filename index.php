@@ -1,4 +1,10 @@
-<?php  ?>
+<?php
+$faq = [
+
+    
+];
+
+?>
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -12,6 +18,7 @@
         <title>Google f.a.q.</title>
     </head>
     <body>
+
 
     </body>
 </html>
