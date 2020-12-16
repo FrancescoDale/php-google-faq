@@ -76,7 +76,12 @@ $footerMenu = [
             <?php } ?>
 
         </div>
+        <footer class="container-fluid">
+            <?php for ($i=0; $i < count($footerMenu) ; $i++) {
+            ?>
+            <a href="#"> <?php echo $footerMenu[$i] ?> </a>
 
-
+            <?php  } ?>
+        </footer>
     </body>
 </html>
