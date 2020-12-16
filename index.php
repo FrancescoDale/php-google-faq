@@ -58,7 +58,7 @@ $footerMenu = [
             <nav>
                 <?php for ($i=0; $i < count($navMenu) ; $i++) {
                 ?>
-                
+                <a href="#"> <?php echo $navMenu[$i] ?> </a>
 
                 <?php  } ?>
             </nav>
