@@ -56,22 +56,19 @@ $footerMenu = [
     <body>
         <header class="container-fluid">
             <nav>
-                <?php for ($i=0; $i < count($navMenu) ; $i++) {
-                ?>
-                <a href="#"> <?php echo $navMenu[$i] ?> </a>
-
-                <?php  } ?>
+                <?php for ($i=0; $i < count($navMenu) ; $i++) { ?>
+                    <a href="#"> <?php echo $navMenu[$i] ?> </a>
+                <?php } ?>
             </nav>
 
         </header>
         <div class="container">
-            <?php for ($i=0; $i < count($faq); $i++) {
-            ?>
-            <div class="box mt-4 mb-4">
-                <h2> <?php echo $faq[$i]["question"]; ?> </h2>
-                <h4 class="mt-2"> <?php  echo $faq[$i]["answer"]; ?> </h4>
-
-            </div>
+            <?php for ($i=0; $i < count($faq); $i++) {  ?>
+                <div class="box mt-4 mb-4">
+                    <h2> <?php echo $faq[$i]["question"]; ?> </h2>
+                    <br>
+                    <h4 class="mt-2"> <?php  echo $faq[$i]["answer"]; ?> </h4>
+                </div>
 
             <?php } ?>
 
