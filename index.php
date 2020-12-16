@@ -33,6 +33,13 @@ $navMenu = [
     "Domande frequenti",
 ];
 
+$footerMenu = [
+    "Google",
+    "Tutto su Google",
+    "Privacy",
+    "Termini",
+];
+
 ?>
 
 <!DOCTYPE html>
