@@ -83,9 +83,9 @@ $footerMenu = [
             <div class="faq">
                 <?php foreach($faq as $quests) { ?>
                     <div class="box">
-                        <h2> <?php echo $quests["question"]; ?> </h2>
+                        <h2 class="mt-4"> <?php echo $quests["question"]; ?> </h2>
                         <?php foreach ($quests["answer"] as $aswr) { ?>
-                            <p> <?php echo $aswr ?> </p>
+                            <h4 class="mt-2"> <?php echo $aswr ?> </h4>
                         <?php } ?>
                     </div>
                 <?php } ?>

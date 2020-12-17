@@ -15,10 +15,12 @@ h2, h4 {
 
 h2 {
     font-size: $size * 2.5;
+    font-weight: bold;
 }
 
 h4 {
-    font-size: $size * 1.8;
+    font-size: $size * 1.5;
+    font-weight: lighter;    
 }
 
 
